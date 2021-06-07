@@ -22,3 +22,5 @@ G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\views\Login.g.cs
 G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\views\MainWindow.g.cs
 G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\views\MainWindow.baml
 G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\views\Login.baml
+G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\views\Reg.g.cs
+G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\views\Reg.baml

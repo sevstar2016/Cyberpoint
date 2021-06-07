@@ -5,8 +5,97 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cyberpoint.views"
         mc:Ignorable="d"
-        Title="Reg" Height="450" Width="800">
+        Title="Reg" Height="1080" Width="1920">
     <Grid>
-        
+        <Grid Height="1077">
+            <Image Source="pack://application:,,,/images/BGLogin.png" Margin="0,-16,0,0"/>
+            <Image Source="pack://application:,,,/images/cyberRed.png" Margin="83,76,1460,846"/>
+
+            <Grid>
+                <Grid Margin="816,150,63,306.57">
+                    <TextBlock Foreground="#FFC40E3D" FontSize="600" TextAlignment="Center" Margin="0,-180,0,0">
+                        50
+                    </TextBlock>
+                </Grid>
+
+                <Grid Margin="1158,948,63,62">
+                    <Image Source="pack://application:,,,/images\Group 6138.png"/>
+                    <Grid Margin="369,0,15,0">
+                        <Rectangle Fill="#FF161D24"/>
+                        <TextBlock Foreground="#FFC40E3D" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            STANDART
+                        </TextBlock>
+                    </Grid>
+                </Grid>
+            </Grid>
+            <Grid>
+                <TextBlock Margin="83,269,1240,786" Foreground="White" FontSize="18">
+                Форма регистрации нового пользователя киберспортивного клуба
+                </TextBlock>
+                <Grid Margin="83,314,1513,701">
+                    <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
+                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Логин" FontSize="18" Margin="20,0,0,0"/>
+                </Grid>
+
+                <Grid Margin="460,421,1136,603">
+                    <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
+                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Пароль" FontSize="18" Margin="20,0,0,0"/>
+                    <Grid Margin="274,20,30,21">
+                        <Image Source="pack://application:,,,/images\hide.png"/>
+                        <Button Background="{x:Null}" BorderBrush="{x:Null}"/>
+                    </Grid>
+                </Grid>
+
+                <Grid Margin="83,494,1352,533">
+                    <StackPanel>
+                        <CheckBox Content="Согласен(а) с правилами посещения комплекса клуба" Foreground="White"></CheckBox>
+                        <CheckBox Content="Согласен(а) с политикой обработки персональных данных" Foreground="White" Margin="0,9,0,0"></CheckBox>
+                    </StackPanel>
+                </Grid>
+
+
+                <Grid Margin="83,577,1136,240">
+                    <Grid Margin="0,0,377,185">
+                        <Image Source="pack://application:,,,/images\Mask Group.png"/>
+                        <TextBlock Foreground="White" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        ВХОД
+                        </TextBlock>
+                    </Grid>
+
+                    <Grid Margin="377,0,0,185">
+                        <Image Source="pack://application:,,,/images\Rectangle 874.png"/>
+                        <TextBlock Foreground="#FFC40E3D" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24">
+                        РЕГИСТРАЦИЯ
+                        </TextBlock>
+                    </Grid>
+
+                    <Grid Margin="0,151,0,0">
+                        <Image Source="pack://application:,,,/images\Join.png"/>
+                    </Grid>
+                </Grid>
+
+
+                <Grid Margin="83,872,1370,45">
+                    <TextBlock Foreground="White" FontSize="24">
+                    Раскладка клавиатуры
+                    </TextBlock>
+
+                    <Grid Margin="0,38,0,0">
+                        <Image Source="pack://application:,,,/images/united-states.png" Margin="136,0,183,55"/>
+                        <Image Source="pack://application:,,,/images\russia.png" Margin="0,0,319,55"/>
+                    </Grid>
+
+                    <Grid Margin="0,113,0,0">
+                        <TextBlock Foreground="#FF3C454D" FontSize="18">
+                        *Для смены раскладки ввода 
+                        <LineBreak/>
+                        языка нажмите комбинацию клавиш
+                        </TextBlock>
+
+                        <Image Source="pack://application:,,,/images\Group 6782.png" Margin="327,6,0,6"/>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
     </Grid>
 </Window>
