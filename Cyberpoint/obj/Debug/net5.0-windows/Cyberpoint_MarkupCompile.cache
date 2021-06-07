@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 G:\source\Cyberpoint\Cyberpoint\App.xaml
-31537620044
+41617600579
 
-5-690321586
+6-2008781655
 193-1891726104
-views\Login.xaml;views\MainWindow.xaml;views\Reg.xaml;
+views\Bron.xaml;views\Login.xaml;views\MainWindow.xaml;views\Reg.xaml;
 
-False
+True
 

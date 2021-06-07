@@ -32,21 +32,57 @@
                 <TextBlock Margin="83,269,1240,786" Foreground="White" FontSize="18">
                 Форма регистрации нового пользователя киберспортивного клуба
                 </TextBlock>
-                <Grid Margin="83,314,1513,701">
+                <Grid Margin="83,314,1513,707">
                     <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
+                    <Image Source="pack://application:,,,/images\star.png" Height="13" Width="13" HorizontalAlignment="Right" Margin="0,0,-20,0"/>
                     <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Логин" FontSize="18" Margin="20,0,0,0"/>
                 </Grid>
+                
+                <Grid Margin="460,314,1136,707">
+                    <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
+                    <Image Source="pack://application:,,,/images\star.png" Height="13" Width="13" HorizontalAlignment="Right" Margin="0,0,-20,0"/>
+                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="ФИО" FontSize="18" Margin="20,0,0,0"/>
+                </Grid>
 
-                <Grid Margin="460,421,1136,603">
+                <Grid Margin="460,456,1136,565">
+                    <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
+                    <Image Source="pack://application:,,,/images\star.png" Height="13" Width="13" HorizontalAlignment="Right" Margin="0,0,-20,0"/>
+                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Email" FontSize="18" Margin="20,0,0,0"/>
+                </Grid>
+
+                <Grid Margin="83,456,1513,565">
+                    <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
+                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="8 (777) 777-77-77" FontSize="18" Margin="20,0,0,0"/>
+                </Grid>
+
+                <Grid Margin="83,385,1513,636">
                     <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
                     <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Пароль" FontSize="18" Margin="20,0,0,0"/>
+                    <Image Source="pack://application:,,,/images\star.png" Height="13" Width="13" HorizontalAlignment="Right" Margin="0,0,-20,0"/>
                     <Grid Margin="274,20,30,21">
                         <Image Source="pack://application:,,,/images\hide.png"/>
                         <Button Background="{x:Null}" BorderBrush="{x:Null}"/>
                     </Grid>
                 </Grid>
 
-                <Grid Margin="83,494,1352,533">
+                <Grid Margin="83,522,1665,536">
+                    <Image Source="pack://application:,,,/images/Orange_star.png" Height="13" Width="13" HorizontalAlignment="Left"/>
+                    <TextBlock Foreground="#FFCA7B34" FontSize="16" Margin="18,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left">
+                        Обязательное поле
+                    </TextBlock>
+                </Grid>
+
+                <Grid Margin="460,385,1136,636">
+                    <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
+                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Подтверждение пароля" FontSize="18" Margin="20,0,0,0"/>
+                    <Image Source="pack://application:,,,/images\star.png" Height="13" Width="13" HorizontalAlignment="Right" Margin="0,0,-20,0"/>
+                    <Grid Margin="274,20,30,21">
+                        <Image Source="pack://application:,,,/images\hide.png"/>
+                        <Button Background="{x:Null}" BorderBrush="{x:Null}"/>
+                    </Grid>
+                </Grid>
+
+                <Grid Margin="83,559,1352,468">
                     <StackPanel>
                         <CheckBox Content="Согласен(а) с правилами посещения комплекса клуба" Foreground="White"></CheckBox>
                         <CheckBox Content="Согласен(а) с политикой обработки персональных данных" Foreground="White" Margin="0,9,0,0"></CheckBox>
@@ -54,15 +90,15 @@
                 </Grid>
 
 
-                <Grid Margin="83,577,1136,240">
-                    <Grid Margin="0,0,377,185">
+                <Grid Margin="83,642,1136,228">
+                    <Grid Margin="0,0,377,129">
                         <Image Source="pack://application:,,,/images\Mask Group.png"/>
                         <TextBlock Foreground="White" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center">
                         ВХОД
                         </TextBlock>
                     </Grid>
 
-                    <Grid Margin="377,0,0,185">
+                    <Grid Margin="377,0,0,129">
                         <Image Source="pack://application:,,,/images\Rectangle 874.png"/>
                         <TextBlock Foreground="#FFC40E3D" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24">
                         РЕГИСТРАЦИЯ
@@ -70,7 +106,7 @@
                     </Grid>
 
                     <Grid Margin="0,151,0,0">
-                        <Image Source="pack://application:,,,/images\Join.png"/>
+                        <Image Source="pack://application:,,,/images\Join.png" Margin="0,-56,0,0"/>
                     </Grid>
                 </Grid>
 

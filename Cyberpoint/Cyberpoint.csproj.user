@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="views\Bron.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="views\Login.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -15,6 +18,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="views\Bron.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="views\Login.xaml">
       <SubType>Designer</SubType>
     </Page>

@@ -11,6 +11,7 @@
     <None Remove="images\BG.png" />
     <None Remove="images\BG1.png" />
     <None Remove="images\BGLogin.png" />
+    <None Remove="images\Bron_B_BG.png" />
     <None Remove="images\ChangeTar %282%29.png" />
     <None Remove="images\ChangeTar.png" />
     <None Remove="images\cyberRed.png" />
@@ -23,11 +24,13 @@
     <None Remove="images\Group 6750.png" />
     <None Remove="images\Group 6768.png" />
     <None Remove="images\Group 6782.png" />
+    <None Remove="images\Group.png" />
     <None Remove="images\hide.png" />
     <None Remove="images\HOT GAME.png" />
     <None Remove="images\Join.png" />
     <None Remove="images\Line 113.png" />
     <None Remove="images\Mask Group.png" />
+    <None Remove="images\Orange_star.png" />
     <None Remove="images\Pop.png" />
     <None Remove="images\ProfileAvatar.png" />
     <None Remove="images\ProfileBG.png" />
@@ -40,6 +43,7 @@
     <None Remove="images\refresh%281%29 1.png" />
     <None Remove="images\russia.png" />
     <None Remove="images\Sales.png" />
+    <None Remove="images\star.png" />
     <None Remove="images\united-states.png" />
   </ItemGroup>
 
@@ -48,6 +52,7 @@
     <Resource Include="images\BG.png" />
     <Resource Include="images\BG1.png" />
     <Resource Include="images\BGLogin.png" />
+    <Resource Include="images\Bron_B_BG.png" />
     <Resource Include="images\ChangeTar (2).png" />
     <Resource Include="images\ChangeTar.png" />
     <Resource Include="images\cyberRed.png" />
@@ -60,11 +65,13 @@
     <Resource Include="images\Group 6750.png" />
     <Resource Include="images\Group 6768.png" />
     <Resource Include="images\Group 6782.png" />
+    <Resource Include="images\Group.png" />
     <Resource Include="images\hide.png" />
     <Resource Include="images\HOT GAME.png" />
     <Resource Include="images\Join.png" />
     <Resource Include="images\Line 113.png" />
     <Resource Include="images\Mask Group.png" />
+    <Resource Include="images\Orange_star.png" />
     <Resource Include="images\Pop.png" />
     <Resource Include="images\ProfileAvatar.png" />
     <Resource Include="images\ProfileBG.png" />
@@ -77,6 +84,7 @@
     <Resource Include="images\refresh(1) 1.png" />
     <Resource Include="images\russia.png" />
     <Resource Include="images\Sales.png" />
+    <Resource Include="images\star.png" />
     <Resource Include="images\united-states.png" />
   </ItemGroup>
 
