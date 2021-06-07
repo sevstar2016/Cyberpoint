@@ -6,11 +6,9 @@ G:\source\Cyberpoint\Cyberpoint\bin\Debug\net5.0-windows\Cyberpoint.dll
 G:\source\Cyberpoint\Cyberpoint\bin\Debug\net5.0-windows\ref\Cyberpoint.dll
 G:\source\Cyberpoint\Cyberpoint\bin\Debug\net5.0-windows\Cyberpoint.pdb
 G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\Cyberpoint.csproj.AssemblyReference.cache
-G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\MainWindow.g.cs
 G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\App.g.cs
 G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\Cyberpoint_MarkupCompile.cache
 G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\Cyberpoint_MarkupCompile.lref
-G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\MainWindow.baml
 G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\Cyberpoint.g.resources
 G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\Cyberpoint.GeneratedMSBuildEditorConfig.editorconfig
 G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\Cyberpoint.AssemblyInfoInputs.cache
@@ -20,3 +18,7 @@ G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\Cyberpoint.dll
 G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\ref\Cyberpoint.dll
 G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\Cyberpoint.pdb
 G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\Cyberpoint.genruntimeconfig.cache
+G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\views\Login.g.cs
+G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\views\MainWindow.g.cs
+G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\views\MainWindow.baml
+G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\views\Login.baml
