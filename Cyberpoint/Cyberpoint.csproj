@@ -10,6 +10,7 @@
     <None Remove="images\Bar.png" />
     <None Remove="images\BG.png" />
     <None Remove="images\BG1.png" />
+    <None Remove="images\BGB.png" />
     <None Remove="images\BGLogin.png" />
     <None Remove="images\Bron_B_BG.png" />
     <None Remove="images\ChangeTar %282%29.png" />
@@ -35,6 +36,7 @@
     <None Remove="images\ProfileAvatar.png" />
     <None Remove="images\ProfileBG.png" />
     <None Remove="images\Rectangle 1135.png" />
+    <None Remove="images\Rectangle 1136.png" />
     <None Remove="images\Rectangle 869.png" />
     <None Remove="images\Rectangle 873.png" />
     <None Remove="images\Rectangle 874.png" />
@@ -51,6 +53,7 @@
     <Resource Include="images\Bar.png" />
     <Resource Include="images\BG.png" />
     <Resource Include="images\BG1.png" />
+    <Resource Include="images\BGB.png" />
     <Resource Include="images\BGLogin.png" />
     <Resource Include="images\Bron_B_BG.png" />
     <Resource Include="images\ChangeTar (2).png" />
@@ -76,6 +79,7 @@
     <Resource Include="images\ProfileAvatar.png" />
     <Resource Include="images\ProfileBG.png" />
     <Resource Include="images\Rectangle 1135.png" />
+    <Resource Include="images\Rectangle 1136.png" />
     <Resource Include="images\Rectangle 869.png" />
     <Resource Include="images\Rectangle 873.png" />
     <Resource Include="images\Rectangle 874.png" />
