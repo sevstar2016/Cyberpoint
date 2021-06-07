@@ -5,10 +5,506 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cyberpoint.views"
         mc:Ignorable="d"
-        Title="Bron" Height="1080" Width="1920">
+        Title="Bron" Height="1080" Width="1920"
+        x:Name="SharedShadow">
     <Grid Margin="0,-5,0,0" Background="#FF0D141B">
         <StackPanel>
             <Grid>
+
+                <Grid Margin="667,324,689,202">
+                    <Grid Margin="0,0,334,315">
+                        <TextBlock Foreground="White" Text="ПАКЕТ БУДНИ" FontSize="13" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="22,0,42,206" FontWeight="Bold">
+                            <TextBlock.Effect>
+                                <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                            </TextBlock.Effect>
+                        </TextBlock>
+                        <StackPanel Margin="0,30,0,0">
+                            <Grid>
+                                <TextBlock Foreground="White" Text="400 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                    <TextBlock.Effect>
+                                        <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                    </TextBlock.Effect>
+                                </TextBlock>
+                                <TextBlock Foreground="White" FontWeight="Bold" FontSize="16" Margin="81,0,0,18">
+                                    ХЕТ ТРИК ДО 18:00
+                                </TextBlock>
+                                <TextBlock Foreground="#FF7E848A" FontSize="12" Margin="81,24,34,0">
+                                     Время 00:00 - 18:00
+                                </TextBlock>
+                            </Grid>
+                            <Grid Margin="0,12,0,0">
+                                <TextBlock Foreground="White" Text="240 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                    <TextBlock.Effect>
+                                        <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                    </TextBlock.Effect>
+                                </TextBlock>
+                                <TextBlock Foreground="White" FontWeight="Bold" FontSize="16" Margin="81,0,0,18">
+                                    ХЕТ ТРИК ДО 18:00
+                                </TextBlock>
+                                <TextBlock Foreground="#FF7E848A" FontSize="12" Margin="81,24,34,0">
+                                     Время 15:00 - 23:59
+                                </TextBlock>
+                            </Grid>
+                            <Grid Margin="0,12,0,0">
+                                <TextBlock Foreground="White" Text="300 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                    <TextBlock.Effect>
+                                        <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                    </TextBlock.Effect>
+                                </TextBlock>
+                                <TextBlock Foreground="White" FontWeight="Bold" FontSize="16" Margin="81,0,0,18">
+                                    ХЕТ ТРИК ДО 18:00
+                                </TextBlock>
+                                <TextBlock Foreground="#FF7E848A" FontSize="12" Margin="81,24,34,0">
+                                     09:00 - 16:00
+                                </TextBlock>
+                            </Grid>
+                            <Grid Margin="0,12,0,0">
+                                <TextBlock Foreground="White" Text="400 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                    <TextBlock.Effect>
+                                        <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                    </TextBlock.Effect>
+                                </TextBlock>
+                                <TextBlock Foreground="White" FontWeight="Bold" FontSize="16" Margin="81,0,0,18">
+                                    ХЕТ ТРИК ДО 18:00
+                                </TextBlock>
+                                <TextBlock Foreground="#FF7E848A" FontSize="12" Margin="81,24,34,0">
+                                     Время 20:00 - 10:00
+                                </TextBlock>
+                            </Grid>
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Margin="296,0,15,315">
+                        <TextBlock Foreground="White" Text="ПАКЕТ ВЫХОДНЫЕ" FontSize="13" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="22,0,42,206" FontWeight="Bold">
+                            <TextBlock.Effect>
+                                <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                            </TextBlock.Effect>
+                        </TextBlock>
+                        <StackPanel Margin="0,30,0,0">
+                            <Grid>
+                                <TextBlock Foreground="White" Text="240 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                    <TextBlock.Effect>
+                                        <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                    </TextBlock.Effect>
+                                </TextBlock>
+                                <TextBlock Foreground="White" FontWeight="Bold" FontSize="16" Margin="81,0,0,18">
+                                    ХЕТ ТРИК ДО 18:00
+                                </TextBlock>
+                                <TextBlock Foreground="#FF7E848A" FontSize="12" Margin="81,24,34,0">
+                                     Время 00:00 - 18:00
+                                </TextBlock>
+                            </Grid>
+                            <Grid Margin="0,12,0,0">
+                                <TextBlock Foreground="White" Text="280 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                    <TextBlock.Effect>
+                                        <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                    </TextBlock.Effect>
+                                </TextBlock>
+                                <TextBlock Foreground="White" FontWeight="Bold" FontSize="16" Margin="81,0,0,18">
+                                    ХЕТ ТРИК ДО 18:00
+                                </TextBlock>
+                                <TextBlock Foreground="#FF7E848A" FontSize="12" Margin="81,24,34,0">
+                                     Время 15:00 - 23:59
+                                </TextBlock>
+                            </Grid>
+                            <Grid Margin="0,12,0,0">
+                                <TextBlock Foreground="White" Text="350 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                    <TextBlock.Effect>
+                                        <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                    </TextBlock.Effect>
+                                </TextBlock>
+                                <TextBlock Foreground="White" FontWeight="Bold" FontSize="16" Margin="81,0,0,18">
+                                    ХЕТ ТРИК ДО 18:00
+                                </TextBlock>
+                                <TextBlock Foreground="#FF7E848A" FontSize="12" Margin="81,24,34,0">
+                                     09:00 - 16:00
+                                </TextBlock>
+                            </Grid>
+                            <Grid Margin="0,12,0,0">
+                                <TextBlock Foreground="White" Text="500 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                    <TextBlock.Effect>
+                                        <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                    </TextBlock.Effect>
+                                </TextBlock>
+                                <TextBlock Foreground="White" FontWeight="Bold" FontSize="16" Margin="81,0,0,18">
+                                    ХЕТ ТРИК ДО 18:00
+                                </TextBlock>
+                                <TextBlock Foreground="#FF7E848A" FontSize="12" Margin="81,24,34,0">
+                                     Время 20:00 - 10:00
+                                </TextBlock>
+                            </Grid>
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Margin="0,279,0,0">
+                        <TextBlock Foreground="White" Text="ПОМИНУТНЫЕ ТАРИФЫ" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,274,242">
+                            <TextBlock.Effect>
+                                <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                            </TextBlock.Effect>
+                        </TextBlock>
+
+                        <StackPanel Margin="0,40,0,0" Orientation="Horizontal">
+                            <StackPanel Orientation="Horizontal">
+                                <StackPanel Height="235" Width="158">
+                                    <Grid>
+                                        <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                            <TextBlock.Effect>
+                                                <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                            </TextBlock.Effect>
+                                        </TextBlock>
+                                        <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                        </TextBlock>
+                                        <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                        </TextBlock>
+                                    </Grid>
+                                    <Grid Margin="0,25,0,0">
+                                        <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                            <TextBlock.Effect>
+                                                <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                            </TextBlock.Effect>
+                                        </TextBlock>
+                                        <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                        </TextBlock>
+                                        <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                        </TextBlock>
+                                    </Grid>
+                                    <Grid Margin="0,25,0,0">
+                                        <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                            <TextBlock.Effect>
+                                                <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                            </TextBlock.Effect>
+                                        </TextBlock>
+                                        <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                        </TextBlock>
+                                        <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                        </TextBlock>
+                                    </Grid>
+                                    <Grid Margin="0,25,0,0">
+                                        <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                            <TextBlock.Effect>
+                                                <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                            </TextBlock.Effect>
+                                        </TextBlock>
+                                        <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                        </TextBlock>
+                                        <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                        </TextBlock>
+                                    </Grid>
+                                </StackPanel>
+                                
+                                <StackPanel Height="235" Width="158" Margin="12,0,0,0">
+                                    <Grid>
+                                        <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                            <TextBlock.Effect>
+                                                <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                            </TextBlock.Effect>
+                                        </TextBlock>
+                                        <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                        </TextBlock>
+                                        <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                        </TextBlock>
+                                    </Grid>
+                                    <Grid Margin="0,25,0,0">
+                                        <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                            <TextBlock.Effect>
+                                                <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                            </TextBlock.Effect>
+                                        </TextBlock>
+                                        <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                        </TextBlock>
+                                        <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                        </TextBlock>
+                                    </Grid>
+                                    <Grid Margin="0,25,0,0">
+                                        <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                            <TextBlock.Effect>
+                                                <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                            </TextBlock.Effect>
+                                        </TextBlock>
+                                        <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                        </TextBlock>
+                                        <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                        </TextBlock>
+                                    </Grid>
+                                    <Grid Margin="0,25,0,0">
+                                        <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                            <TextBlock.Effect>
+                                                <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                            </TextBlock.Effect>
+                                        </TextBlock>
+                                        <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                        </TextBlock>
+                                        <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                        </TextBlock>
+                                    </Grid>
+                                </StackPanel>
+                                <StackPanel Height="235" Width="158" Margin="12,0,0,0">
+                                    <Grid>
+                                        <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                            <TextBlock.Effect>
+                                                <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                            </TextBlock.Effect>
+                                        </TextBlock>
+                                        <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                        </TextBlock>
+                                        <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                        </TextBlock>
+                                    </Grid>
+                                    <Grid Margin="0,25,0,0">
+                                        <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                            <TextBlock.Effect>
+                                                <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                            </TextBlock.Effect>
+                                        </TextBlock>
+                                        <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                        </TextBlock>
+                                        <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                        </TextBlock>
+                                    </Grid>
+                                    <Grid Margin="0,25,0,0">
+                                        <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                            <TextBlock.Effect>
+                                                <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                            </TextBlock.Effect>
+                                        </TextBlock>
+                                        <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                        </TextBlock>
+                                        <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                        </TextBlock>
+                                    </Grid>
+                                    <Grid Margin="0,25,0,0">
+                                        <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                            <TextBlock.Effect>
+                                                <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                            </TextBlock.Effect>
+                                        </TextBlock>
+                                        <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                        </TextBlock>
+                                        <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                        </TextBlock>
+                                    </Grid>
+                                </StackPanel>
+                                
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+
+                <Grid Margin="667,205,651,786">
+                    <TextBlock Foreground="#FFF2F2F2" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="15">
+                        Выберите зал, для просмотра цен на услуги:
+                    </TextBlock>
+                    <Grid Margin="0,36,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Grid>
+                                <Image Source="pack://application:,,,/images/Rectangle 1136.png" Height="53" Width="128"/>
+                                <TextBlock Foreground="#CA7B34" Text="STANDART" FontSize="13" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold">
+                                    <TextBlock.Effect>
+                                        <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="#CA7B34"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                    </TextBlock.Effect>
+                                </TextBlock>
+                                <Border Margin="22,37,22,19">
+                                    <Border.Effect>
+                                        <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="#CA7B34"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                    </Border.Effect>
+                                    
+                                    <Rectangle Fill="#CA7B34"/>
+                                </Border>
+                            </Grid>
+
+                            <Grid Margin="30,0,0,0">
+                                <Image Source="pack://application:,,,/images/Rectangle 1136.png" Height="53" Width="128"/>
+                                <TextBlock Foreground="White" Text="VIP" FontSize="13" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold">
+                                    <TextBlock.Effect>
+                                        <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                    </TextBlock.Effect>
+                                </TextBlock>
+                            </Grid>
+
+                            <Grid Margin="30,0,0,0">
+                                <Image Source="pack://application:,,,/images/Rectangle 1136.png" Height="53" Width="128"/>
+                                <TextBlock Foreground="White" Text="CONSOLE - TV" FontSize="13" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold">
+                                    <TextBlock.Effect>
+                                        <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                    </TextBlock.Effect>
+                                </TextBlock>
+                            </Grid>
+
+                            <Grid Margin="30,0,0,0">
+                                <Image Source="pack://application:,,,/images/Rectangle 1136.png" Height="53" Width="128"/>
+                                <TextBlock Foreground="White" Text="THRONE" FontSize="13" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold">
+                                    <TextBlock.Effect>
+                                        <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                    </TextBlock.Effect>
+                                </TextBlock>
+                            </Grid>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
 
                 <Grid Margin="159,213,1305,339">
                     <Rectangle Fill="#1A2229" Margin="0,0,0,69"/>
@@ -167,7 +663,7 @@
                             <Image Source="pack://application:,,,/images\Group 6768.png"></Image>
                         </Button>
 
-                        <Grid Margin="0,-2,0,0">
+                        <Grid Margin="0,-15,0,0">
                             <Grid>
                                 <TextBlock Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28">
                                     14:55
@@ -177,7 +673,7 @@
                                 </TextBlock>
                             </Grid>
 
-                            <Button Margin="0,0,7,0" Background="{x:Null}" Foreground="{x:Null}" BorderBrush="{x:Null}"  Width="47" HorizontalAlignment="Right">
+                            <Button Margin="0,5,8,-5" Background="{x:Null}" Foreground="{x:Null}" BorderBrush="{x:Null}"  Width="47" HorizontalAlignment="Right">
                                 <Image Source="pack://application:,,,/images\refresh(1) 1.png"/>
                             </Button>
                         </Grid>
