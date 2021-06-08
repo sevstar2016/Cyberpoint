@@ -10,14 +10,15 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Cyberpoint.views
+namespace Cyberpoint.Views
 {
     /// <summary>
     /// Логика взаимодействия для Shop.xaml
     /// </summary>
-    public partial class Shop : Window
+    public partial class Shop : UserControl
     {
         public Shop()
         {

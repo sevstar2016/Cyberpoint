@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="fonts\Squartiqa4FUltraLight.otf" />
+    <None Remove="fonts\Squartiqa4FUltraLight.ttf" />
     <None Remove="images\Bar.png" />
     <None Remove="images\BG.png" />
     <None Remove="images\BG1.png" />
@@ -50,6 +52,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="fonts\Squartiqa4FUltraLight.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
     <Resource Include="images\Bar.png" />
     <Resource Include="images\BG.png" />
     <Resource Include="images\BG1.png" />

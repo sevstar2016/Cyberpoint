@@ -1,19 +1,41 @@
-﻿<Window x:Class="Cyberpoint.views.Login"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Cyberpoint.views"
-        mc:Ignorable="d"
-        Title="" Height="1080" Width="1920">
+﻿<UserControl x:Class="Cyberpoint.Views.Login"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Cyberpoint.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920">
+    <UserControl.Resources>
+        <Style x:Key="lblDis" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="pack://application:,,,/fonts/Squartiqa4FUltraLight.ttf#Squartiqa4FUltraLight ☞"/>
+        </Style>
+
+        <Style x:Key="Regul" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="pack://application:,,,/fonts/Squartiqa_4F_Regular.otf#Squartiqa 4F"/>
+        </Style>
+
+        <Style x:Key="Aero" TargetType="TextBox">
+            <Setter Property="FontFamily" Value="pack://application:,,,/fonts/aeroport-light.ttf#Aeroport Light"/>
+        </Style>
+
+        <Style x:Key="Aerob" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="pack://application:,,,/fonts/aeroport-light.ttf#Aeroport Light"/>
+        </Style>
+
+        <Style x:Key="Aeroc" TargetType="CheckBox">
+            <Setter Property="FontFamily" Value="pack://application:,,,/fonts/aeroport-light.ttf#Aeroport Light"/>
+        </Style>
+    </UserControl.Resources>
+
     <Grid>
         <Grid Height="1077">
             <Image Source="pack://application:,,,/images\BGLogin.png" Margin="0,-16,0,0"/>
-            <Image Source="pack://application:,,,/images/cyberRed.png" Margin="83,183,1460,739"/>
+            <Image Source="pack://application:,,,/images/cyberRed2.png" Margin="83,183,1460,739"/>
 
             <Grid>
                 <Grid Margin="816,150,63,306.57">
-                    <TextBlock Foreground="#FFC40E3D" FontSize="600" TextAlignment="Center" Margin="0,-180,0,0">
+                    <TextBlock Foreground="#B42A40" FontSize="600" TextAlignment="Center" Margin="0,-180,0,0" Style="{StaticResource lblDis}" VerticalAlignment="Bottom" HorizontalAlignment="Right">
                         50
                     </TextBlock>
                 </Grid>
@@ -22,7 +44,7 @@
                     <Image Source="pack://application:,,,/images\Group 6138.png"/>
                     <Grid Margin="369,0,15,0">
                         <Rectangle Fill="#FF161D24"/>
-                        <TextBlock Foreground="#FFC40E3D" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock Foreground="#B42A40" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{StaticResource Regul}">
                             STANDART
                         </TextBlock>
                     </Grid>
@@ -34,12 +56,12 @@
                 </TextBlock>
                 <Grid Margin="83,421,1513,603">
                     <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
-                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Логин" FontSize="18" Margin="20,0,0,0"/>
+                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Логин" FontSize="18" Margin="20,0,0,0" Style="{StaticResource Aero}"/>
                 </Grid>
 
                 <Grid Margin="460,421,1136,603">
                     <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
-                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Пароль" FontSize="18" Margin="20,0,0,0"/>
+                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Пароль" FontSize="18" Margin="20,0,0,0" Style="{StaticResource Aero}"/>
                     <Grid Margin="274,20,30,21">
                         <Image Source="pack://application:,,,/images\hide.png"/>
                         <Button Background="{x:Null}" BorderBrush="{x:Null}"/>
@@ -48,8 +70,8 @@
 
                 <Grid Margin="83,494,1352,533">
                     <StackPanel>
-                        <CheckBox Content="Согласен(а) с правилами посещения комплекса клуба" Foreground="White"></CheckBox>
-                        <CheckBox Content="Согласен(а) с политикой обработки персональных данных" Foreground="White" Margin="0,9,0,0"></CheckBox>
+                        <CheckBox Content="Согласен(а) с правилами посещения комплекса клуба" Foreground="White" Style="{StaticResource Aeroc}"></CheckBox>
+                        <CheckBox Content="Согласен(а) с политикой обработки персональных данных" Foreground="White" Margin="0,9,0,0" Style="{StaticResource Aeroc}"></CheckBox>
                     </StackPanel>
                 </Grid>
 
@@ -57,14 +79,14 @@
                 <Grid Margin="83,577,1136,240">
                     <Grid Margin="0,0,377,185">
                         <Image Source="pack://application:,,,/images\Mask Group.png"/>
-                        <TextBlock Foreground="White" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock Foreground="White" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{StaticResource Regul}">
                         ВХОД
                         </TextBlock>
                     </Grid>
 
                     <Grid Margin="377,0,0,185">
                         <Image Source="pack://application:,,,/images\Rectangle 874.png"/>
-                        <TextBlock Foreground="#FFC40E3D" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24">
+                        <TextBlock Foreground="#FFC40E3D" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" Style="{StaticResource Regul}">
                         РЕГИСТРАЦИЯ
                         </TextBlock>
                     </Grid>
@@ -76,7 +98,7 @@
 
 
                 <Grid Margin="83,872,1370,45">
-                    <TextBlock Foreground="White" FontSize="24">
+                    <TextBlock Foreground="White" FontSize="24" Style="{StaticResource Aerob}">
                     Раскладка клавиатуры
                     </TextBlock>
 
@@ -86,7 +108,7 @@
                     </Grid>
 
                     <Grid Margin="0,113,0,0">
-                        <TextBlock Foreground="#FF3C454D" FontSize="18">
+                        <TextBlock Foreground="#FF3C454D" FontSize="18" Style="{StaticResource Aerob}">
                         *Для смены раскладки ввода 
                         <LineBreak/>
                         языка нажмите комбинацию клавиш
@@ -98,4 +120,4 @@
             </Grid>
         </Grid>
     </Grid>
-</Window>
+</UserControl>

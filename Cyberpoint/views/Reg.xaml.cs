@@ -10,18 +10,24 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Cyberpoint.views
+namespace Cyberpoint.Views
 {
     /// <summary>
     /// Логика взаимодействия для Reg.xaml
     /// </summary>
-    public partial class Reg : Window
+    public partial class Reg : UserControl
     {
         public Reg()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

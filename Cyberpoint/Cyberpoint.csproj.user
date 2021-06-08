@@ -7,33 +7,39 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="views\Bron.xaml.cs">
+    <Compile Update="Views\Bron.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="views\Login.xaml.cs">
+    <Compile Update="Views\Home.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="views\Reg.xaml.cs">
+    <Compile Update="Views\Login.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="views\Shop.xaml.cs">
+    <Compile Update="Views\Reg.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Shop.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="views\Bron.xaml">
+    <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="views\Login.xaml">
+    <Page Update="Views\Bron.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="views\MainWindow.xaml">
+    <Page Update="Views\Home.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="views\Reg.xaml">
+    <Page Update="Views\Login.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="views\Shop.xaml">
+    <Page Update="Views\Reg.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Shop.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -2,8 +2,15 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:Cyberpoint"
-             StartupUri="views/Bron.xaml">
+             xmlns:views="clr-namespace:Cyberpoint.Views"
+             xmlns:viewmodels="clr-namespace:Cyberpoint.ViewModels"
+             StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <DataTemplate DataType="{x:Type viewmodels:GamesViewModel}">
+            <views:Home/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodels:RegViewModel}">
+            <views:Reg/>
+        </DataTemplate>
     </Application.Resources>
 </Application>
