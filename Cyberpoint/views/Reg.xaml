@@ -57,29 +57,49 @@
                 <Grid Margin="83,314,1513,707">
                     <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
                     <Image Source="pack://application:,,,/images\star.png" Height="13" Width="13" HorizontalAlignment="Right" Margin="0,0,-20,0"/>
-                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Логин" FontSize="18" Margin="20,0,0,0" Style="{StaticResource Aero}"/>
+                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Логин" FontSize="18" Margin="20,0,0,0" Style="{StaticResource Aero}">
+                        <TextBox.BorderBrush>
+                            <ImageBrush/>
+                        </TextBox.BorderBrush>
+                    </TextBox>
                 </Grid>
 
                 <Grid Margin="460,314,1136,707">
                     <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
                     <Image Source="pack://application:,,,/images\star.png" Height="13" Width="13" HorizontalAlignment="Right" Margin="0,0,-20,0"/>
-                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="ФИО" FontSize="18" Margin="20,0,0,0" Style="{StaticResource Aero}"/>
+                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="ФИО" FontSize="18" Margin="20,0,0,0" Style="{StaticResource Aero}">
+                        <TextBox.BorderBrush>
+                            <ImageBrush/>
+                        </TextBox.BorderBrush>
+                    </TextBox>
                 </Grid>
 
                 <Grid Margin="460,456,1136,565">
                     <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
                     <Image Source="pack://application:,,,/images\star.png" Height="13" Width="13" HorizontalAlignment="Right" Margin="0,0,-20,0"/>
-                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Email" FontSize="18" Margin="20,0,0,0" Style="{StaticResource Aero}"/>
+                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Email" FontSize="18" Margin="20,0,0,0" Style="{StaticResource Aero}">
+                        <TextBox.BorderBrush>
+                            <ImageBrush/>
+                        </TextBox.BorderBrush>
+                    </TextBox>
                 </Grid>
 
                 <Grid Margin="83,456,1513,565">
                     <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
-                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="8 (777) 777-77-77" FontSize="18" Margin="20,0,0,0" Style="{StaticResource Aero}"/>
+                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="8 (777) 777-77-77" FontSize="18" Margin="20,0,0,0" Style="{StaticResource Aero}">
+                        <TextBox.BorderBrush>
+                            <ImageBrush/>
+                        </TextBox.BorderBrush>
+                    </TextBox>
                 </Grid>
 
                 <Grid Margin="83,385,1513,636">
                     <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
-                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Пароль" FontSize="18" Margin="20,0,0,0" Style="{StaticResource Aero}"/>
+                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Пароль" FontSize="18" Margin="20,0,0,0" Style="{StaticResource Aero}">
+                        <TextBox.BorderBrush>
+                            <ImageBrush/>
+                        </TextBox.BorderBrush>
+                    </TextBox>
                     <Image Source="pack://application:,,,/images\star.png" Height="13" Width="13" HorizontalAlignment="Right" Margin="0,0,-20,0"/>
                     <Grid Margin="274,20,30,21">
                         <Image Source="pack://application:,,,/images\hide.png"/>
@@ -96,7 +116,11 @@
 
                 <Grid Margin="460,385,1136,636">
                     <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
-                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Подтверждение пароля" FontSize="18" Margin="20,0,0,0" Style="{StaticResource Aero}"/>
+                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Подтверждение пароля" FontSize="18" Margin="20,0,0,0" Style="{StaticResource Aero}">
+                        <TextBox.BorderBrush>
+                            <ImageBrush/>
+                        </TextBox.BorderBrush>
+                    </TextBox>
                     <Image Source="pack://application:,,,/images\star.png" Height="13" Width="13" HorizontalAlignment="Right" Margin="0,0,-20,0"/>
                     <Grid Margin="274,20,30,21">
                         <Image Source="pack://application:,,,/images\hide.png"/>
@@ -115,7 +139,7 @@
                 <Grid Margin="83,642,1136,228">
                     <Grid Margin="0,0,377,129">
                         <Image Source="pack://application:,,,/images\Mask Group.png"/>
-                        <Button BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}" Click="Button_Click"/>
+                        <Button BorderBrush="{x:Null}" Foreground="White" Background="{x:Null}" Click="Button_Click" OpacityMask="Black"/>
                         <TextBlock Foreground="White" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{StaticResource Aerob}" FontFamily="Squartiqa 4F">
                             ВХОД
                         </TextBlock>

@@ -32,3 +32,5 @@ G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\GeneratedInternalTypeHe
 G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\App.baml
 G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\MainWindow.baml
 G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\Views\Home.baml
+G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\Views\Software.g.cs
+G:\source\Cyberpoint\Cyberpoint\obj\Debug\net5.0-windows\Views\Software.baml

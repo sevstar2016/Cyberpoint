@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:Cyberpoint" 
         xmlns:viewmodels="clr-namespace:Cyberpoint.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:MainViewModel}"
         mc:Ignorable="d"
-        Title="" Height="1080" Width="1920">
+        Title=""
+        WindowState="Maximized"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        >
 
     <Window.Resources>
         <Style x:Key="lblDis" TargetType="TextBlock">
@@ -30,141 +34,715 @@
         </Style>
     </Window.Resources>
 
+    <Viewbox Stretch="UniformToFill">
+        <Grid Background="#FF0D141B" Width="1920">
+            <StackPanel>
+                <Grid Margin="0,0,0,0">
 
+                    <Grid Margin="667,295,689,231">
+                        <Grid Margin="0,0,334,315">
+                            <TextBlock Foreground="White" Text="ПАКЕТ БУДНИ" FontSize="13" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="22,0,42,206" FontWeight="Bold">
+                                <TextBlock.Effect>
+                                    <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                </TextBlock.Effect>
+                            </TextBlock>
+                            <StackPanel Margin="0,30,0,0">
+                                <Grid>
+                                    <TextBlock Foreground="White" Text="400 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                        <TextBlock.Effect>
+                                            <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                        </TextBlock.Effect>
+                                    </TextBlock>
+                                    <TextBlock Foreground="White" FontWeight="Bold" FontSize="16" Margin="81,0,0,18">
+                                    ХЕТ ТРИК ДО 18:00
+                                    </TextBlock>
+                                    <TextBlock Foreground="#FF7E848A" FontSize="12" Margin="81,24,34,0">
+                                     Время 00:00 - 18:00
+                                    </TextBlock>
+                                </Grid>
+                                <Grid Margin="0,12,0,0">
+                                    <TextBlock Foreground="White" Text="240 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                        <TextBlock.Effect>
+                                            <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                        </TextBlock.Effect>
+                                    </TextBlock>
+                                    <TextBlock Foreground="White" FontWeight="Bold" FontSize="16" Margin="81,0,0,18">
+                                    ХЕТ ТРИК ДО 18:00
+                                    </TextBlock>
+                                    <TextBlock Foreground="#FF7E848A" FontSize="12" Margin="81,24,34,0">
+                                     Время 15:00 - 23:59
+                                    </TextBlock>
+                                </Grid>
+                                <Grid Margin="0,12,0,0">
+                                    <TextBlock Foreground="White" Text="300 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                        <TextBlock.Effect>
+                                            <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                        </TextBlock.Effect>
+                                    </TextBlock>
+                                    <TextBlock Foreground="White" FontWeight="Bold" FontSize="16" Margin="81,0,0,18">
+                                    ХЕТ ТРИК ДО 18:00
+                                    </TextBlock>
+                                    <TextBlock Foreground="#FF7E848A" FontSize="12" Margin="81,24,34,0">
+                                     09:00 - 16:00
+                                    </TextBlock>
+                                </Grid>
+                                <Grid Margin="0,12,0,0">
+                                    <TextBlock Foreground="White" Text="400 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                        <TextBlock.Effect>
+                                            <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                        </TextBlock.Effect>
+                                    </TextBlock>
+                                    <TextBlock Foreground="White" FontWeight="Bold" FontSize="16" Margin="81,0,0,18">
+                                    ХЕТ ТРИК ДО 18:00
+                                    </TextBlock>
+                                    <TextBlock Foreground="#FF7E848A" FontSize="12" Margin="81,24,34,0">
+                                     Время 20:00 - 10:00
+                                    </TextBlock>
+                                </Grid>
+                            </StackPanel>
+                        </Grid>
 
-    <Grid>
-        <Grid Height="1077">
-            <Image Source="pack://application:,,,/images/BGLogin.png" Margin="0,-16,0,0"/>
-            <Image Source="pack://application:,,,/images/cyberRed2.png" Margin="83,76,1460,846"/>
+                        <Grid Margin="296,0,15,315">
+                            <TextBlock Foreground="White" Text="ПАКЕТ ВЫХОДНЫЕ" FontSize="13" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="22,0,42,206" FontWeight="Bold">
+                                <TextBlock.Effect>
+                                    <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                </TextBlock.Effect>
+                            </TextBlock>
+                            <StackPanel Margin="0,30,0,0">
+                                <Grid>
+                                    <TextBlock Foreground="White" Text="240 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                        <TextBlock.Effect>
+                                            <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                        </TextBlock.Effect>
+                                    </TextBlock>
+                                    <TextBlock Foreground="White" FontWeight="Bold" FontSize="16" Margin="81,0,0,18">
+                                    ХЕТ ТРИК ДО 18:00
+                                    </TextBlock>
+                                    <TextBlock Foreground="#FF7E848A" FontSize="12" Margin="81,24,34,0">
+                                     Время 00:00 - 18:00
+                                    </TextBlock>
+                                </Grid>
+                                <Grid Margin="0,12,0,0">
+                                    <TextBlock Foreground="White" Text="280 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                        <TextBlock.Effect>
+                                            <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                        </TextBlock.Effect>
+                                    </TextBlock>
+                                    <TextBlock Foreground="White" FontWeight="Bold" FontSize="16" Margin="81,0,0,18">
+                                    ХЕТ ТРИК ДО 18:00
+                                    </TextBlock>
+                                    <TextBlock Foreground="#FF7E848A" FontSize="12" Margin="81,24,34,0">
+                                     Время 15:00 - 23:59
+                                    </TextBlock>
+                                </Grid>
+                                <Grid Margin="0,12,0,0">
+                                    <TextBlock Foreground="White" Text="350 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                        <TextBlock.Effect>
+                                            <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                        </TextBlock.Effect>
+                                    </TextBlock>
+                                    <TextBlock Foreground="White" FontWeight="Bold" FontSize="16" Margin="81,0,0,18">
+                                    ХЕТ ТРИК ДО 18:00
+                                    </TextBlock>
+                                    <TextBlock Foreground="#FF7E848A" FontSize="12" Margin="81,24,34,0">
+                                     09:00 - 16:00
+                                    </TextBlock>
+                                </Grid>
+                                <Grid Margin="0,12,0,0">
+                                    <TextBlock Foreground="White" Text="500 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                        <TextBlock.Effect>
+                                            <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                        </TextBlock.Effect>
+                                    </TextBlock>
+                                    <TextBlock Foreground="White" FontWeight="Bold" FontSize="16" Margin="81,0,0,18">
+                                    ХЕТ ТРИК ДО 18:00
+                                    </TextBlock>
+                                    <TextBlock Foreground="#FF7E848A" FontSize="12" Margin="81,24,34,0">
+                                     Время 20:00 - 10:00
+                                    </TextBlock>
+                                </Grid>
+                            </StackPanel>
+                        </Grid>
 
-            <Grid>
-                <Grid Margin="816,150,63,306.57">
-                    <TextBlock Foreground="#B42A40" FontSize="600" TextAlignment="Center" Margin="0,-180,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Right" Style="{StaticResource lblDis}" FontFamily="Squartiqa4FUltraLight ☞">
-                        88
-                    </TextBlock>
-                </Grid>
+                        <Grid Margin="0,279,0,0">
+                            <TextBlock Foreground="White" Text="ПОМИНУТНЫЕ ТАРИФЫ" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,274,242">
+                                <TextBlock.Effect>
+                                    <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                </TextBlock.Effect>
+                            </TextBlock>
 
-                <Grid Margin="1158,948,63,62">
-                    <Image Source="pack://application:,,,/images\Group 6138.png"/>
-                    <Grid Margin="369,0,15,0">
-                        <Rectangle Fill="#FF161D24"/>
-                        <TextBlock Foreground="#B42A40" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{StaticResource Regul}" FontFamily="Squartiqa 4F">
-                            STANDART
+                            <StackPanel Margin="0,40,0,0" Orientation="Horizontal">
+                                <StackPanel Orientation="Horizontal">
+                                    <StackPanel Height="235" Width="158">
+                                        <Grid>
+                                            <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                                <TextBlock.Effect>
+                                                    <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                                </TextBlock.Effect>
+                                            </TextBlock>
+                                            <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                            </TextBlock>
+                                            <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                            </TextBlock>
+                                        </Grid>
+                                        <Grid Margin="0,25,0,0">
+                                            <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                                <TextBlock.Effect>
+                                                    <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                                </TextBlock.Effect>
+                                            </TextBlock>
+                                            <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                            </TextBlock>
+                                            <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                            </TextBlock>
+                                        </Grid>
+                                        <Grid Margin="0,25,0,0">
+                                            <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                                <TextBlock.Effect>
+                                                    <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                                </TextBlock.Effect>
+                                            </TextBlock>
+                                            <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                            </TextBlock>
+                                            <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                            </TextBlock>
+                                        </Grid>
+                                        <Grid Margin="0,25,0,0">
+                                            <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                                <TextBlock.Effect>
+                                                    <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                                </TextBlock.Effect>
+                                            </TextBlock>
+                                            <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                            </TextBlock>
+                                            <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                            </TextBlock>
+                                        </Grid>
+                                    </StackPanel>
+
+                                    <StackPanel Height="235" Width="158" Margin="12,0,0,0">
+                                        <Grid>
+                                            <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                                <TextBlock.Effect>
+                                                    <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                                </TextBlock.Effect>
+                                            </TextBlock>
+                                            <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                            </TextBlock>
+                                            <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                            </TextBlock>
+                                        </Grid>
+                                        <Grid Margin="0,25,0,0">
+                                            <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                                <TextBlock.Effect>
+                                                    <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                                </TextBlock.Effect>
+                                            </TextBlock>
+                                            <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                            </TextBlock>
+                                            <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                            </TextBlock>
+                                        </Grid>
+                                        <Grid Margin="0,25,0,0">
+                                            <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                                <TextBlock.Effect>
+                                                    <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                                </TextBlock.Effect>
+                                            </TextBlock>
+                                            <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                            </TextBlock>
+                                            <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                            </TextBlock>
+                                        </Grid>
+                                        <Grid Margin="0,25,0,0">
+                                            <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                                <TextBlock.Effect>
+                                                    <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                                </TextBlock.Effect>
+                                            </TextBlock>
+                                            <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                            </TextBlock>
+                                            <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                            </TextBlock>
+                                        </Grid>
+                                    </StackPanel>
+                                    <StackPanel Height="235" Width="158" Margin="12,0,0,0">
+                                        <Grid>
+                                            <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                                <TextBlock.Effect>
+                                                    <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                                </TextBlock.Effect>
+                                            </TextBlock>
+                                            <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                            </TextBlock>
+                                            <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                            </TextBlock>
+                                        </Grid>
+                                        <Grid Margin="0,25,0,0">
+                                            <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                                <TextBlock.Effect>
+                                                    <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                                </TextBlock.Effect>
+                                            </TextBlock>
+                                            <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                            </TextBlock>
+                                            <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                            </TextBlock>
+                                        </Grid>
+                                        <Grid Margin="0,25,0,0">
+                                            <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                                <TextBlock.Effect>
+                                                    <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                                </TextBlock.Effect>
+                                            </TextBlock>
+                                            <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                            </TextBlock>
+                                            <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                            </TextBlock>
+                                        </Grid>
+                                        <Grid Margin="0,25,0,0">
+                                            <TextBlock Foreground="White" Text="100 KZT" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="0,0,85,18">
+                                                <TextBlock.Effect>
+                                                    <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                                </TextBlock.Effect>
+                                            </TextBlock>
+                                            <TextBlock Margin="71,0,0,18" Foreground="White" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">
+                                            1:00-17:5
+                                            </TextBlock>
+                                            <TextBlock Margin="0,24,43,0" Foreground="#7E848A" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                            Поминутный будни
+                                            </TextBlock>
+                                        </Grid>
+                                    </StackPanel>
+
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+
+                    <Grid Margin="667,176,651,815">
+                        <TextBlock Foreground="#FFF2F2F2" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="15">
+                        Выберите зал, для просмотра цен на услуги:
+                        </TextBlock>
+                        <Grid Margin="0,36,0,0">
+                            <StackPanel Orientation="Horizontal">
+                                <Grid>
+                                    <Image Source="pack://application:,,,/images/Rectangle 1136.png" Height="53" Width="128"/>
+                                    <TextBlock Foreground="#CA7B34" Text="STANDART" FontSize="13" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Style="{StaticResource Regul}">
+                                        <TextBlock.Effect>
+                                            <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="#CA7B34"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                        </TextBlock.Effect>
+                                    </TextBlock>
+                                    <Border Margin="22,37,22,19">
+                                        <Border.Effect>
+                                            <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="#CA7B34"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                        </Border.Effect>
+
+                                        <Rectangle Fill="#CA7B34"/>
+                                    </Border>
+                                </Grid>
+
+                                <Grid Margin="30,0,0,0">
+                                    <Image Source="pack://application:,,,/images/Rectangle 1136.png" Height="53" Width="128"/>
+                                    <TextBlock Foreground="White" Text="VIP" FontSize="13" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Style="{StaticResource Regul}">
+                                        <TextBlock.Effect>
+                                            <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                        </TextBlock.Effect>
+                                    </TextBlock>
+                                </Grid>
+
+                                <Grid Margin="30,0,0,0">
+                                    <Image Source="pack://application:,,,/images/Rectangle 1136.png" Height="53" Width="128"/>
+                                    <TextBlock Foreground="White" Text="CONSOLE - TV" FontSize="13" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Style="{StaticResource Regul}">
+                                        <TextBlock.Effect>
+                                            <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                        </TextBlock.Effect>
+                                    </TextBlock>
+                                </Grid>
+
+                                <Grid Margin="30,0,0,0">
+                                    <Image Source="pack://application:,,,/images/Rectangle 1136.png" Height="53" Width="128"/>
+                                    <TextBlock Foreground="White" Text="THRONE" FontSize="13" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Style="{StaticResource Regul}">
+                                        <TextBlock.Effect>
+                                            <DropShadowEffect
+                                            ShadowDepth="0"
+                                            Direction="0"
+                                            Color="White"
+                                            Opacity="0.7"
+                                            BlurRadius="8"/>
+                                        </TextBlock.Effect>
+                                    </TextBlock>
+                                </Grid>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+
+                    <Grid Margin="159,184,1305,339">
+                        <Rectangle Fill="#1A2229" Margin="0,0,0,69"/>
+                        <TextBlock Foreground="White" FontSize="18" Margin="20,25,88,418" VerticalAlignment="Top" HorizontalAlignment="Left" Style="{StaticResource Aerob}">
+                        Правила резервирования компьютера
+                        </TextBlock>
+
+                        <TextBlock Margin="20,65,25,4" FontSize="15" Foreground="#FF9B9B9B" HorizontalAlignment="Left" VerticalAlignment="Top" Style="{StaticResource Aerob}">
+                        1. Вы бронируете компьютер на определённый <LineBreak/>
+                        промежуток времени. На выбранное время за вами <LineBreak/>
+                        закрепляется зарезервированный компьютер. <LineBreak/> <LineBreak/> 
+                        2. При совершении процедуры резервирования у вас <LineBreak/>
+                        на балансе замораживается стоимость <LineBreak/>
+                        резервирования. <LineBreak/> <LineBreak/>
+                        3. За 15 минут до забронированного времени вам <LineBreak/>
+                        направляют напоминание на указанный вами в <LineBreak/>
+                        настройках аккаунта способ оповещения  <LineBreak/> <LineBreak/> 
+                        4. Если вы не отменили свою бронь за 30 минут до ее <LineBreak/>
+                        начала и не пришли в указанное в резервировании <LineBreak/>
+                        время, то с вашего баланса списывается штраф в KZT - <LineBreak/>
+                        100% от замороженной на счету суммы <LineBreak/>
+                        резервирования. <LineBreak/> <LineBreak/> 
+                        Допускается опоздание не более чем на 15 минут
                         </TextBlock>
                     </Grid>
-                </Grid>
-            </Grid>
-            <Grid>
-                <TextBlock Margin="83,269,1240,786" Foreground="White" FontSize="18">
-                Форма регистрации нового пользователя киберспортивного клуба
-                </TextBlock>
-                <Grid Margin="83,314,1513,707">
-                    <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
-                    <Image Source="pack://application:,,,/images\star.png" Height="13" Width="13" HorizontalAlignment="Right" Margin="0,0,-20,0"/>
-                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Логин" FontSize="18" Margin="20,0,0,0" Style="{StaticResource Aero}"/>
-                </Grid>
 
-                <Grid Margin="460,314,1136,707">
-                    <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
-                    <Image Source="pack://application:,,,/images\star.png" Height="13" Width="13" HorizontalAlignment="Right" Margin="0,0,-20,0"/>
-                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="ФИО" FontSize="18" Margin="20,0,0,0" Style="{StaticResource Aero}"/>
-                </Grid>
+                    <Grid Margin="159,682,1305,344">
+                        <Image Source="pack://application:,,,/images/Bron_B_BG.png"/>
+                        <Button Foreground="{x:Null}" Background="{x:Null}" BorderBrush="{x:Null}"/>
+                        <Grid>
+                            <TextBlock Foreground="White" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="16" Margin="0,21,0,0">
+                            ЗАБРОНИРОВАТЬ PC
+                            </TextBlock>
 
-                <Grid Margin="460,456,1136,565">
-                    <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
-                    <Image Source="pack://application:,,,/images\star.png" Height="13" Width="13" HorizontalAlignment="Right" Margin="0,0,-20,0"/>
-                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Email" FontSize="18" Margin="20,0,0,0" Style="{StaticResource Aero}"/>
-                </Grid>
-
-                <Grid Margin="83,456,1513,565">
-                    <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
-                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="8 (777) 777-77-77" FontSize="18" Margin="20,0,0,0" Style="{StaticResource Aero}"/>
-                </Grid>
-
-                <Grid Margin="83,385,1513,636">
-                    <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
-                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Пароль" FontSize="18" Margin="20,0,0,0" Style="{StaticResource Aero}"/>
-                    <Image Source="pack://application:,,,/images\star.png" Height="13" Width="13" HorizontalAlignment="Right" Margin="0,0,-20,0"/>
-                    <Grid Margin="274,20,30,21">
-                        <Image Source="pack://application:,,,/images\hide.png"/>
-                        <Button Background="{x:Null}" BorderBrush="{x:Null}"/>
-                    </Grid>
-                </Grid>
-
-                <Grid Margin="83,522,1665,536">
-                    <Image Source="pack://application:,,,/images/Orange_star.png" Height="13" Width="13" HorizontalAlignment="Left"/>
-                    <TextBlock Foreground="#FFCA7B34" FontSize="16" Margin="18,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" Style="{StaticResource Aerob}">
-                        Обязательное поле
-                    </TextBlock>
-                </Grid>
-
-                <Grid Margin="460,385,1136,636">
-                    <Image Source="pack://application:,,,/images\Rectangle 939.png"/>
-                    <TextBox Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Подтверждение пароля" FontSize="18" Margin="20,0,0,0" Style="{StaticResource Aero}"/>
-                    <Image Source="pack://application:,,,/images\star.png" Height="13" Width="13" HorizontalAlignment="Right" Margin="0,0,-20,0"/>
-                    <Grid Margin="274,20,30,21">
-                        <Image Source="pack://application:,,,/images\hide.png"/>
-                        <Button Background="{x:Null}" BorderBrush="{x:Null}"/>
-                    </Grid>
-                </Grid>
-
-                <Grid Margin="83,559,1352,468">
-                    <StackPanel>
-                        <CheckBox Content="Согласен(а) с правилами посещения комплекса клуба" Foreground="White" Style="{StaticResource Aeroc}"></CheckBox>
-                        <CheckBox Content="Согласен(а) с политикой обработки персональных данных" Foreground="White" Margin="0,9,0,0" Style="{StaticResource Aeroc}"></CheckBox>
-                    </StackPanel>
-                </Grid>
-
-                
-
-                <Grid Margin="83,642,1136,228">
-                    
-                    <Grid Margin="0,0,377,129">
-                        <Image Source="pack://application:,,,/images\Mask Group.png"/>
-
-                        <TextBlock Foreground="White" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{StaticResource Aerob}" FontFamily="Squartiqa 4F">
-                            ВХОД
-                        </TextBlock>
-                        <Button BorderBrush="Transparent" Foreground="Transparent" Background="Transparent" Command="{Binding UpdateViewCommand}" CommandParameter="Home"/>
-                        
+                            <Image Source="pack://application:,,,/images/Group.png" Margin="122,15,310,9"/>
+                        </Grid>
                     </Grid>
 
-                    <Grid Margin="377,0,0,129">
-                        <Image Source="pack://application:,,,/images\Rectangle 874.png"/>
-                        <TextBlock Foreground="#FFC40E3D" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" Style="{StaticResource Aerob}" FontFamily="Squartiqa 4F">
-                        РЕГИСТРАЦИЯ
-                        </TextBlock>
+                    <Grid Margin="159,109,1303,918">
+                        <StackPanel Orientation="Horizontal">
+
+                            <Grid>
+                                <TextBlock Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="15">
+                                Клубные игры
+                                </TextBlock>
+                            </Grid>
+
+                            <Grid Margin="20,0,0,0">
+                                <TextBlock Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="15">
+                                Игры
+                                </TextBlock>
+                            </Grid>
+
+                            <Grid Margin="20,0,0,0">
+                                <TextBlock Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="15">
+                                Софт
+                                </TextBlock>
+                            </Grid>
+
+                            <Grid Margin="20,0,0,0">
+                                <TextBlock Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="15">
+                                Бар
+                                </TextBlock>
+                            </Grid>
+
+                            <Grid Margin="20,0,0,0">
+                                <TextBlock Foreground="#FFB42A40" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="15">
+                                Бронирование
+                                </TextBlock>
+
+                                <Rectangle Fill="#FFB42A40" Margin="0,23.8,0,1.6" Height="0.4"/>
+                            </Grid>
+
+                        </StackPanel>
                     </Grid>
 
-                    <Grid Margin="0,151,0,0">
-                        <Image Source="pack://application:,,,/images\Join.png" Margin="0,-56,0,0"/>
+
+                    <Grid Margin="15,83,1807,0" Background="#FF161D26">
+                        <StackPanel Margin="10,0,11,0">
+                            <Button Margin="0,28,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}">
+                                <Image Source="pack://application:,,,/images\Games.png" Width="60"/>
+                            </Button>
+                            <Button Margin="0,28,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}">
+                                <Image Source="pack://application:,,,/images\Pop.png" Width="60"/>
+                            </Button>
+                            <Button Margin="0,28,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}">
+                                <Image Source="pack://application:,,,/images\Sales.png" Width="60"/>
+                            </Button>
+                            <Button Margin="0,28,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}">
+                                <Image Source="pack://application:,,,/images\Bar.png" Width="60"/>
+                            </Button>
+                        </StackPanel>
+                    </Grid>
+
+
+                    <Grid Margin="1598,101,15,0" Background="#FF161D26">
+                        <StackPanel Margin="29,0,29,0">
+                            <Grid Margin="0,15,0,0">
+                                <Image Source="pack://application:,,,/images\Group 202.png"/>
+                                <TextBlock Text="история посещений" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="14" Margin="0,22,0,0"/>
+                                <Image Source="pack://application:,,,/images\Line 113.png" VerticalAlignment="Top" Margin="30,49,26,0"/>
+                            </Grid>
+                            <Grid Margin="0,10,0,0">
+                                <Image Source="pack://application:,,,/images\Rectangle 869.png"/>
+                                <Image Source="pack://application:,,,/images\Group 6750.png"/>
+                                <TextBlock Text="Ваш баланс" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14" Margin="35,22,0,0" Style="{StaticResource Aerob}"/>
+                                <StackPanel Margin="30,40,30,18">
+                                    <Grid Margin="0,8,0,0">
+                                        <Image Source="pack://application:,,,/images\Rectangle 970.png"/>
+                                        <TextBlock Text="Ваш баланс" Foreground="White" Margin="15,7,88,31" Style="{StaticResource Aerob}"/>
+                                        <TextBlock Text="523 334" Foreground="White" FontSize="18" Margin="16,24,0,8" Style="{StaticResource Aerob}" HorizontalAlignment="Left"/>
+                                        <TextBlock Text="KZT" Foreground="White" FontSize="14" Margin="117,28,41,8" FontWeight="Bold"/>
+                                    </Grid>
+                                    <Grid Margin="0,8,0,0">
+                                        <Image Source="pack://application:,,,/images\Rectangle 970.png"/>
+                                        <TextBlock Text="ВАШ КЭШБЕК" Foreground="White" Margin="15,7,88,31" Style="{StaticResource Aerob}"/>
+                                        <TextBlock Text="14" Foreground="White" FontSize="18" Margin="30,24,87,8" Style="{StaticResource Aerob}"/>
+                                        <TextBlock Text="KZT" Foreground="White" FontSize="14" Margin="117,28,41,8" FontWeight="Bold"/>
+                                    </Grid>
+                                    <Grid Margin="0,8,0,8">
+                                        <Image Source="pack://application:,,,/images\Rectangle 970.png"/>
+                                        <TextBlock Text="Bonus" Foreground="White" Margin="15,7,88,31" Style="{StaticResource Aerob}"/>
+                                        <TextBlock Text="14" Foreground="White" FontSize="18" Margin="30,24,87,8" Style="{StaticResource Aerob}"/>
+                                        <TextBlock Text="KZT" Foreground="White" FontSize="14" Margin="117,28,41,8" FontWeight="Bold" />
+                                    </Grid>
+                                </StackPanel>
+                            </Grid>
+
+                            <Grid Margin="0,5,0,0">
+                                <Rectangle Fill="#FFD7771A" Width="250" Height="196"/>
+                                <Image Source="pack://application:,,,/images\Group 6750.png" HorizontalAlignment="Left" Width="250" Height="196" Margin="0,0,0,0"/>
+                                <TextBlock Text="Текущий тариф" Foreground="White" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,21,71,159" Style="{StaticResource Aerob}"/>
+                                <Rectangle Fill="#FF161D26" Margin="30,44,35,21"/>
+                                <Grid Margin="30,44,35,21">
+                                    <TextBlock Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,15,55,87" Style="{StaticResource Aerob}">
+                                    Стандарт 6
+                                    <LineBreak/>
+                                    часов утро(Вых)
+                                    </TextBlock>
+
+                                    <TextBlock Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,63,42,49" FontSize="18" Style="{StaticResource Aerob}">
+                                    Пакет 400 KZT
+                                    </TextBlock>
+
+                                    <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="14" Margin="15,96,88,20" Style="{StaticResource Aerob}">
+                                    22:00-04:00
+                                    </TextBlock>
+                                </Grid>
+                            </Grid>
+
+                            <Button Margin="0,11,0,0" Background="{x:Null}" BorderBrush="{x:Null}">
+                                <Image Source="pack://application:,,,/images\Group 203.png"/>
+                            </Button>
+
+                            <Button Background="{x:Null}" BorderBrush="{x:Null}" Margin="89,7,0,0">
+                                <Image Source="pack://application:,,,/images\Group 6768.png"></Image>
+                            </Button>
+
+                            <Grid Margin="0,10,0,0">
+                                <Grid>
+                                    <TextBlock Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28">
+                                    14:55
+                                    </TextBlock>
+                                    <TextBlock Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="15" Margin="0,28,0,0">
+                                    20.04.2021
+                                    </TextBlock>
+                                </Grid>
+
+                                <Button Margin="0,5,8,-5" Background="{x:Null}" Foreground="{x:Null}" BorderBrush="{x:Null}"  Width="47" HorizontalAlignment="Right">
+                                    <Image Source="pack://application:,,,/images\refresh(1) 1.png"/>
+                                </Button>
+                            </Grid>
+                        </StackPanel>
+                    </Grid>
+
+
+                    <Grid Margin="15,0,322,967" Background="#FF101820" Height="84">
+                        <Image Source="pack://application:,,,/images\cyberRed.png" Margin="59,10,1364,11"/>
+                        <Button Margin="673,15,673,16" Foreground="White" BorderBrush="{x:Null}" Background="{x:Null}">
+                            <Image Source="pack://application:,,,/images\ChangeTar (2).png" Height="53" Width="225" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill"/>
+                        </Button>
+
+                        <Grid Margin="1194,29,22,30">
+                            <TextBlock Text="Бесплатный пакет" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Width="127" Height="19" FontWeight="Bold" FontSize="14"/>
+                            <Grid Margin="146,0,0,0">
+                                <TextBlock Text="2" Foreground="White" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                <StackPanel Orientation="Horizontal" Margin="8,2,0,0">
+                                    <Image Source="pack://application:,,,/images\Ellipse 96.png" Width="7" Height="7" Margin="8,0,0,0"/>
+                                    <Image Source="pack://application:,,,/images\Ellipse 96.png" Width="7" Height="7" Margin="8,0,0,0"/>
+                                    <Image Source="pack://application:,,,/images\Ellipse 96.png" Width="7" Height="7" Margin="8,0,0,0"/>
+                                    <Image Source="pack://application:,,,/images\Ellipse 96.png" Width="7" Height="7" Margin="8,0,0,0"/>
+                                    <Image Source="pack://application:,,,/images\Ellipse 96.png" Width="7" Height="7" Margin="8,0,0,0"/>
+                                    <Image Source="pack://application:,,,/images\Ellipse 96.png" Width="7" Height="7" Margin="8,0,0,0"/>
+                                    <Image Source="pack://application:,,,/images\Ellipse 96.png" Width="7" Height="7" Margin="8,0,0,0"/>
+                                    <Image Source="pack://application:,,,/images\Ellipse 96.png" Width="7" Height="7" Margin="8,0,0,0"/>
+                                    <Image Source="pack://application:,,,/images\Ellipse 96.png" Width="7" Height="7" Margin="8,0,0,0"/>
+                                    <Image Source="pack://application:,,,/images\Ellipse 96.png" Width="7" Height="7" Margin="8,0,0,0"/>
+                                    <TextBlock Text="10" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="14" Margin="8,-2,0,0"/>
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                        <Grid Margin="1583,-1,-307,-1" Background="#FFB42A40">
+                            <Image Source="pack://application:,,,/images\ProfileAvatar.png" Margin="26,18,224,11"/>
+                            <TextBlock Text="IVAN BALABEAR" HorizontalAlignment="Left" FontSize="17" Foreground="White" Margin="91,26,48,42"/>
+                            <TextBlock Text="20 место" HorizontalAlignment="Left" FontSize="17" Foreground="White" Margin="91,48.5,145,14.3"/>
+                            <TextBlock Text="STANDART зона" HorizontalAlignment="Left" FontSize="17" Foreground="White" Margin="166,48.5,18,14.3"/>
+                        </Grid>
                     </Grid>
                 </Grid>
-                    
-                
-
-                <Grid Margin="83,872,1370,45">
-                    <TextBlock Foreground="White" FontSize="24" Style="{StaticResource Aerob}">
-                    Раскладка клавиатуры
-                    </TextBlock>
-
-                    <Grid Margin="0,38,0,0">
-                        <Image Source="pack://application:,,,/images/united-states.png" Margin="136,0,183,55"/>
-                        <Image Source="pack://application:,,,/images\russia.png" Margin="0,0,319,55"/>
-                    </Grid>
-
-                    <Grid Margin="0,113,0,0">
-                        <TextBlock Foreground="#FF3C454D" FontSize="18" Style="{StaticResource Aerob}">
-                        *Для смены раскладки ввода 
-                        <LineBreak/>
-                        языка нажмите комбинацию клавиш
-                        </TextBlock>
-
-                        <Image Source="pack://application:,,,/images\Group 6782.png" Margin="327,6,0,6"/>
-                    </Grid>
-                </Grid>
-            </Grid>
+            </StackPanel>
         </Grid>
-        <ContentControl Content="{Binding SelectedViewModel}"/>
-    </Grid>
+    </Viewbox>
 </Window>
