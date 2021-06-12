@@ -65,10 +65,10 @@ namespace Cyberpoint
 
         void Close(object sender, CancelEventArgs e)
         {
-            //e.Cancel = true;
+            e.Cancel = true;
             close = true;
             Process.Start("explorer.exe");
-            //SetTaskManager(false);
+            SetTaskManager(false);
         }
 
         public void SetTaskManager(bool enable)
