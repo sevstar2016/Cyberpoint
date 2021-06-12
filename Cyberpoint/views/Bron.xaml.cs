@@ -24,5 +24,12 @@ namespace Cyberpoint.Views
         {
             InitializeComponent();
         }
+
+        private void B1_Click(object sender, RoutedEventArgs e)
+        {
+            var mainWindow = (MainWindow)Window.GetWindow((DependencyObject)sender);
+
+            mainWindow.U2();
+        }
     }
 }

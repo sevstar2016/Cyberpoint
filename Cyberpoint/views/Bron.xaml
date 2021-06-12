@@ -773,7 +773,7 @@
 
                             <Grid Margin="89,7,0,0">
                                 <Image Source="pack://application:,,,/images\Group 6768.png"></Image>
-                                <Button >
+                                <Button Click="B1_Click">
                                     <Button.OpacityMask>
                                         <ImageBrush/>
                                     </Button.OpacityMask>

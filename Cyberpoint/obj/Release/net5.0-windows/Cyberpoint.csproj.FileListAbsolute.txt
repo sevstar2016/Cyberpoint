@@ -37,3 +37,10 @@ G:\source\Cyberpoint\Cyberpoint\bin\Release\net5.0-windows\Microsoft.Xaml.Behavi
 G:\source\Cyberpoint\Cyberpoint\bin\Release\net5.0-windows\Prism.dll
 G:\source\Cyberpoint\Cyberpoint\bin\Release\net5.0-windows\Prism.Wpf.dll
 G:\source\Cyberpoint\Cyberpoint\obj\Release\net5.0-windows\Cyberpoint.csproj.CopyComplete
+G:\source\Cyberpoint\Cyberpoint\bin\Release\net5.0-windows\Newtonsoft.Json.dll
+G:\source\Cyberpoint\Cyberpoint\bin\Release\net5.0-windows\NuGet.Common.dll
+G:\source\Cyberpoint\Cyberpoint\bin\Release\net5.0-windows\NuGet.Configuration.dll
+G:\source\Cyberpoint\Cyberpoint\bin\Release\net5.0-windows\NuGet.Frameworks.dll
+G:\source\Cyberpoint\Cyberpoint\bin\Release\net5.0-windows\NuGet.Packaging.dll
+G:\source\Cyberpoint\Cyberpoint\bin\Release\net5.0-windows\NuGet.Protocol.dll
+G:\source\Cyberpoint\Cyberpoint\bin\Release\net5.0-windows\NuGet.Versioning.dll

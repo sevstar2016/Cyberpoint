@@ -43,6 +43,10 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "dependencies": {
+            "NuGet.Protocol": {
+              "target": "Package",
+              "version": "[5.9.1, )"
+            },
             "Prism.Wpf": {
               "target": "Package",
               "version": "[8.1.97, )"

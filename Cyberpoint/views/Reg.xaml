@@ -140,7 +140,7 @@
                     <Grid Margin="83,642,1136,228">
                         <Grid Margin="0,0,377,129">
                             <Image Source="pack://application:,,,/images\Mask Group.png"/>
-                            <Button Foreground="White" Click="Button_Click">
+                            <Button Foreground="White" Click="B1_Click">
                                 <Button.Background>
                                     <ImageBrush/>
                                 </Button.Background>

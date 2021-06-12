@@ -1,14 +1,13 @@
-﻿using Cyberpoint.Views;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cyberpoint.ViewModels
+namespace Cyberpoint
 {
-    class RegVM
+    public static class Values
     {
-        
+        public static bool b1 = false;
     }
 }

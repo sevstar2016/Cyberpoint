@@ -20,14 +20,29 @@ namespace Cyberpoint.Views
     /// </summary>
     public partial class Reg : UserControl
     {
+        public Button b1;
+
+        public bool LogIsClicked = false;
+    
         public Reg()
         {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        public bool GetB()
         {
+            return LogIsClicked;
+        }
 
+        private void B1_Click(object sender, RoutedEventArgs e)
+        {
+            var mainWindow = (MainWindow)Window.GetWindow((DependencyObject)sender);
+
+            mainWindow.U1();
+
+            LogIsClicked = true;
+            Values.b1 = true;
+            Console.WriteLine("Changed");
         }
     }
 }

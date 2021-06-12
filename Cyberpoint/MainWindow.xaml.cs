@@ -19,6 +19,7 @@ using Prism.Common;
 using Cyberpoint.ViewModels;
 using Microsoft.Win32;
 using Cyberpoint.commands;
+using NuGet.Protocol.Plugins;
 
 namespace Cyberpoint
 {
@@ -29,11 +30,14 @@ namespace Cyberpoint
     {
         static bool close = false;
 
+        private RegVM rvm = new RegVM();
+        private BronVM bvm = new BronVM();
+
         public MainWindow()
         {
             InitializeComponent();
 
-            DataContext = new RegVM();
+            DataContext = rvm;
 
             Thread thr = new Thread(new ThreadStart(KillProcess));
             thr.Priority = ThreadPriority.AboveNormal;
@@ -42,7 +46,9 @@ namespace Cyberpoint
 
             Client cl = new Client();
 
-            cl.StartClient();
+            //SetTaskManager(false);
+
+            cl.StartClient();        
         }
 
         static void KillProcess()
@@ -55,7 +61,7 @@ namespace Cyberpoint
                     try
                     {
                         foreach (Process p in processInfo)
-                            p.Kill();
+                        p.Kill();
                     }
                     catch (Exception) { }
                 }
@@ -65,10 +71,19 @@ namespace Cyberpoint
 
         void Close(object sender, CancelEventArgs e)
         {
-            //e.Cancel = true;
-            close = true;
-            Process.Start("explorer.exe");
-            //SetTaskManager(false);
+            e.Cancel = true;
+            //close = true;
+            //Process.Start("explorer.exe");
+        }
+
+        public void U1()
+        {
+            DataContext = bvm;
+        }
+
+        public void U2()
+        {
+            DataContext = rvm;
         }
 
         public void SetTaskManager(bool enable)
