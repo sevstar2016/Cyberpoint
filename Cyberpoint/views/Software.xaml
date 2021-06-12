@@ -27,12 +27,11 @@
             <Setter Property="FontFamily" Value="pack://application:,,,/fonts/aeroport-light.ttf#Aeroport Light"/>
         </Style>
     </UserControl.Resources>
-
-    <Grid Margin="0,-5,0,0" Background="#FF0D141B">
+    <Viewbox Stretch="UniformToFill">
+        <Grid Width="1920" Background="#FF0D141B">
         <StackPanel>
-            <Grid>
-
-                <Grid Margin="328,138,1185,918" HorizontalAlignment="Stretch">
+                <Grid>
+                    <Grid Margin="328,138,1185,918" HorizontalAlignment="Stretch">
                     <StackPanel Orientation="Horizontal">
 
                         <Grid>
@@ -75,25 +74,85 @@
 
                 <Grid Margin="27,112,1807,2" Background="#FF161D26">
                     <StackPanel Margin="10,0,11,0">
-                        <Button Margin="0,28,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}">
+                        <Grid Margin="0,28,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Button>
+                                <Button.Background>
+                                    <ImageBrush/>
+                                </Button.Background>
+                                <Button.BorderBrush>
+                                    <ImageBrush/>
+                                </Button.BorderBrush>
+                                <Button.OpacityMask>
+                                    <ImageBrush/>
+                                </Button.OpacityMask>
+                                <Button.Foreground>
+                                    <ImageBrush/>
+                                </Button.Foreground>
+
+                            </Button>
                             <Image Source="pack://application:,,,/images\Games.png" Width="60"/>
-                        </Button>
-                        <Button Margin="0,28,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}">
+                        </Grid>
+                        <Grid Margin="0,28,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Button>
+                                <Button.Background>
+                                    <ImageBrush/>
+                                </Button.Background>
+                                <Button.BorderBrush>
+                                    <ImageBrush/>
+                                </Button.BorderBrush>
+                                <Button.OpacityMask>
+                                    <ImageBrush/>
+                                </Button.OpacityMask>
+                                <Button.Foreground>
+                                    <ImageBrush/>
+                                </Button.Foreground>
+
+                            </Button>
                             <Image Source="pack://application:,,,/images\Pop.png" Width="60"/>
-                        </Button>
-                        <Button Margin="0,28,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}">
+                        </Grid>
+                        <Grid Margin="0,28,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Button>
+                                <Button.Background>
+                                    <ImageBrush/>
+                                </Button.Background>
+                                <Button.BorderBrush>
+                                    <ImageBrush/>
+                                </Button.BorderBrush>
+                                <Button.OpacityMask>
+                                    <ImageBrush/>
+                                </Button.OpacityMask>
+                                <Button.Foreground>
+                                    <ImageBrush/>
+                                </Button.Foreground>
+
+                            </Button>
                             <Image Source="pack://application:,,,/images\Sales.png" Width="60"/>
-                        </Button>
-                        <Button Margin="0,28,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}">
+                        </Grid>
+                        <Grid Margin="0,28,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Button>
+                                <Button.Background>
+                                    <ImageBrush/>
+                                </Button.Background>
+                                <Button.BorderBrush>
+                                    <ImageBrush/>
+                                </Button.BorderBrush>
+                                <Button.OpacityMask>
+                                    <ImageBrush/>
+                                </Button.OpacityMask>
+                                <Button.Foreground>
+                                    <ImageBrush/>
+                                </Button.Foreground>
+
+                            </Button>
                             <Image Source="pack://application:,,,/images\Bar.png" Width="60"/>
-                        </Button>
+                        </Grid>
                     </StackPanel>
                 </Grid>
 
 
-                <Grid Margin="1598,113,15,0" Background="#FF161D26">
+                <Grid Margin="1598,120,15,0" Background="#FF161D26">
                     <StackPanel Margin="29,0,29,0">
-                        <Grid Margin="0,31,0,0">
+                        <Grid Margin="0,15,0,0">
                             <Image Source="pack://application:,,,/images\Group 202.png"/>
                             <TextBlock Text="история посещений" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="14" Margin="0,22,0,0"/>
                             <Image Source="pack://application:,,,/images\Line 113.png" VerticalAlignment="Top" Margin="30,49,26,0"/>
@@ -101,25 +160,25 @@
                         <Grid Margin="0,10,0,0">
                             <Image Source="pack://application:,,,/images\Rectangle 869.png"/>
                             <Image Source="pack://application:,,,/images\Group 6750.png"/>
-                            <TextBlock Text="Ваш баланс" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14" Margin="35,22,0,0"/>
+                            <TextBlock Text="Ваш баланс" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14" Margin="35,22,0,0" Style="{StaticResource Aerob}"/>
                             <StackPanel Margin="30,40,30,18">
                                 <Grid Margin="0,8,0,0">
                                     <Image Source="pack://application:,,,/images\Rectangle 970.png"/>
-                                    <TextBlock Text="Ваш баланс" Foreground="White" Margin="15,7,88,31" FontWeight="Bold" Style="{StaticResource Aerob}"/>
-                                    <TextBlock Text="523 334" Foreground="White" FontSize="18" Margin="15,26,0,6" HorizontalAlignment="Left" Style="{StaticResource Aerob}"/>
+                                    <TextBlock Text="Ваш баланс" Foreground="White" Margin="15,7,88,31" Style="{StaticResource Aerob}"/>
+                                    <TextBlock Text="523 334" Foreground="White" FontSize="18" Margin="16,24,0,8" Style="{StaticResource Aerob}" HorizontalAlignment="Left"/>
                                     <TextBlock Text="KZT" Foreground="White" FontSize="14" Margin="117,28,41,8" FontWeight="Bold"/>
                                 </Grid>
                                 <Grid Margin="0,8,0,0">
                                     <Image Source="pack://application:,,,/images\Rectangle 970.png"/>
-                                    <TextBlock Text="ВАШ КЭШБЕК" Foreground="White" Margin="15,7,88,31" Style="{StaticResource Aerob}" FontWeight="Bold"/>
+                                    <TextBlock Text="ВАШ КЭШБЕК" Foreground="White" Margin="15,7,88,31" Style="{StaticResource Aerob}"/>
                                     <TextBlock Text="14" Foreground="White" FontSize="18" Margin="30,24,87,8" Style="{StaticResource Aerob}"/>
-                                    <TextBlock Text="KZT" Foreground="White" FontSize="14" Margin="117,28,41,8" FontWeight="Bold" />
+                                    <TextBlock Text="KZT" Foreground="White" FontSize="14" Margin="117,28,41,8" FontWeight="Bold"/>
                                 </Grid>
                                 <Grid Margin="0,8,0,8">
                                     <Image Source="pack://application:,,,/images\Rectangle 970.png"/>
-                                    <TextBlock Text="Bonus" Foreground="White" Margin="15,7,88,31" Style="{StaticResource Aerob}" FontWeight="Bold"/>
+                                    <TextBlock Text="Bonus" Foreground="White" Margin="15,7,88,31" Style="{StaticResource Aerob}"/>
                                     <TextBlock Text="14" Foreground="White" FontSize="18" Margin="30,24,87,8" Style="{StaticResource Aerob}"/>
-                                    <TextBlock Text="KZT" Foreground="White" FontSize="14" Margin="117,28,41,8" FontWeight="Bold"/>
+                                    <TextBlock Text="KZT" Foreground="White" FontSize="14" Margin="117,28,41,8" FontWeight="Bold" />
                                 </Grid>
                             </StackPanel>
                         </Grid>
@@ -127,7 +186,7 @@
                         <Grid Margin="0,5,0,0">
                             <Rectangle Fill="#FFD7771A" Width="250" Height="196"/>
                             <Image Source="pack://application:,,,/images\Group 6750.png" HorizontalAlignment="Left" Width="250" Height="196" Margin="0,0,0,0"/>
-                            <TextBlock Text="Текущий тариф" Foreground="White" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,21,71,159" Style="{StaticResource Regul}"/>
+                            <TextBlock Text="Текущий тариф" Foreground="White" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,21,71,159" Style="{StaticResource Aerob}"/>
                             <Rectangle Fill="#FF161D26" Margin="30,44,35,21"/>
                             <Grid Margin="30,44,35,21">
                                 <TextBlock Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,15,55,87" Style="{StaticResource Aerob}">
@@ -146,15 +205,47 @@
                             </Grid>
                         </Grid>
 
-                        <Button Margin="0,11,0,0" Background="{x:Null}" BorderBrush="{x:Null}">
+                        <Grid Margin="0,11,0,0">
                             <Image Source="pack://application:,,,/images\Group 203.png"/>
-                        </Button>
+                            <Button>
+                                <Button.Background>
+                                    <ImageBrush/>
+                                </Button.Background>
+                                <Button.BorderBrush>
+                                    <ImageBrush/>
+                                </Button.BorderBrush>
+                                <Button.OpacityMask>
+                                    <ImageBrush/>
+                                </Button.OpacityMask>
+                                <Button.Foreground>
+                                    <ImageBrush/>
+                                </Button.Foreground>
 
-                        <Button Background="{x:Null}" BorderBrush="{x:Null}" Margin="89,7,0,0">
+                            </Button>
+                        </Grid>
+
+
+
+                        <Grid Margin="89,7,0,0">
                             <Image Source="pack://application:,,,/images\Group 6768.png"></Image>
-                        </Button>
+                            <Button >
+                                <Button.OpacityMask>
+                                    <ImageBrush/>
+                                </Button.OpacityMask>
+                                <Button.Foreground>
+                                    <ImageBrush/>
+                                </Button.Foreground>
+                                <Button.BorderBrush>
+                                    <ImageBrush/>
+                                </Button.BorderBrush>
+                                <Button.Background>
+                                    <ImageBrush/>
+                                </Button.Background>
 
-                        <Grid Margin="0,-15,0,0">
+                            </Button>
+                        </Grid>
+
+                        <Grid Margin="0,10,0,0">
                             <Grid>
                                 <TextBlock Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28">
                                     14:55
@@ -164,9 +255,23 @@
                                 </TextBlock>
                             </Grid>
 
-                            <Button Margin="0,5,7,-5" Background="{x:Null}" Foreground="{x:Null}" BorderBrush="{x:Null}"  Width="47" HorizontalAlignment="Right">
+                            <Grid Margin="0,5,8,-5"  Width="47" HorizontalAlignment="Right">
                                 <Image Source="pack://application:,,,/images\refresh(1) 1.png"/>
-                            </Button>
+                                <Button>
+                                    <Button.Background>
+                                        <ImageBrush/>
+                                    </Button.Background>
+                                    <Button.BorderBrush>
+                                        <ImageBrush/>
+                                    </Button.BorderBrush>
+                                    <Button.OpacityMask>
+                                        <ImageBrush/>
+                                    </Button.OpacityMask>
+                                    <Button.Foreground>
+                                        <ImageBrush/>
+                                    </Button.Foreground>
+                                </Button>
+                            </Grid>
                         </Grid>
                     </StackPanel>
                 </Grid>
@@ -215,4 +320,5 @@
             </Grid>
         </StackPanel>
     </Grid>
+    </Viewbox>
 </UserControl>

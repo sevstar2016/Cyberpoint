@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Bos0srRjXS1pnKYb6ICPBvVjYOGWOhWDXM0SBknksg3ngraNuqx/01Ww89Vknxvill07QopFWPh6NZloRgVqmw==",
+  "dgSpecHash": "LWHpdg4msKuSOTUuw3vi9Vnpz/auWE8a3ZttiSYEjelA2ZIDTYl2yGhh7DOr7/yD58l42V/NKin0DKUfXu7uKw==",
   "success": true,
   "projectFilePath": "G:\\source\\Cyberpoint\\Cyberpoint\\Cyberpoint.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\prism.wpf\\8.1.97\\prism.wpf.8.1.97.nupkg.sha512"
+  ],
   "logs": []
 }

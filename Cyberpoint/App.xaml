@@ -6,11 +6,5 @@
              xmlns:viewmodels="clr-namespace:Cyberpoint.ViewModels"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <DataTemplate DataType="{x:Type viewmodels:GamesViewModel}">
-            <views:Home/>
-        </DataTemplate>
-        <DataTemplate DataType="{x:Type viewmodels:RegViewModel}">
-            <views:Reg/>
-        </DataTemplate>
     </Application.Resources>
 </Application>

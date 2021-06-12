@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cyberpoint.ViewModels
 {
-    public class GamesViewModel : BaseViewModel
+    class BronVM
     {
     }
 }
