@@ -72,6 +72,7 @@ namespace Cyberpoint
         void Close(object sender, CancelEventArgs e)
         {
             e.Cancel = true;
+<<<<<<< HEAD
             //close = true;
             //Process.Start("explorer.exe");
         }
@@ -84,6 +85,11 @@ namespace Cyberpoint
         public void U2()
         {
             DataContext = rvm;
+=======
+            close = true;
+            Process.Start("explorer.exe");
+            SetTaskManager(false);
+>>>>>>> 0f2da5ed797c1c39515ce0982e4459ae58c4ccd8
         }
 
         public void SetTaskManager(bool enable)
