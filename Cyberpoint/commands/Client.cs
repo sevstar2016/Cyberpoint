@@ -11,22 +11,24 @@ namespace Cyberpoint.commands
 {
     public class Client
     {
-        public void StartClient()
-        {
-            byte[] bytes = new byte[1024];
 
-            try
+        public static IPHostEntry host = Dns.GetHostEntry("localhost");
+        public static IPAddress ipAddress = host.AddressList[0];
+        public static IPEndPoint remoteEP = new IPEndPoint(ipAddress, 11000);
+
+        // Create a TCP/IP  socket.    
+        public static Socket sender = new Socket(ipAddress.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
+
+        private string endstr = "*&*";
+
+        public void StartClient()
+        {try
             {
                 // Connect to a Remote server  
                 // Get Host IP Address that is used to establish a connection  
                 // In this case, we get one IP address of localhost that is IP : 127.0.0.1  
                 // If a host has multiple addresses, you will get a list of addresses  
-                IPHostEntry host = Dns.GetHostEntry("localhost");
-                IPAddress ipAddress = host.AddressList[0];
-                IPEndPoint remoteEP = new IPEndPoint(ipAddress, 11000);
-
-                // Create a TCP/IP  socket.    
-                Socket sender = new Socket(ipAddress.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
+                
 
                 // Connect the socket to the remote endpoint. Catch any errors.
                 try
@@ -36,23 +38,6 @@ namespace Cyberpoint.commands
 
                     Console.WriteLine("Socket connected to {0}",
                         sender.RemoteEndPoint.ToString());
-
-                    // Encode the data string into a byte array.
-                    byte[] msg = Encoding.ASCII.GetBytes("Xui*");
-
-                    // Send the data through the socket.
-                    int bytesSent = sender.Send(msg);
-
-                    // Receive the response from the remote device.
-                    int bytesRec = sender.Receive(bytes);
-                    Console.WriteLine("Echoed test = {0}", Encoding.ASCII.GetString(bytes, 0, bytesRec));
-
-                    MessageBox.Show("Echoed test = {0}", Encoding.ASCII.GetString(bytes, 0, bytesRec));
-
-                    // Release the socket.
-                    sender.Shutdown(SocketShutdown.Both);
-                    sender.Close();
-
                 }
                 catch (ArgumentNullException ane)
                 {
@@ -72,6 +57,38 @@ namespace Cyberpoint.commands
             {
                 //Console.WriteLine(e.ToString());
             }
+        }
+
+        public void Stop()
+        {
+            // Release the socket.
+            sender.Shutdown(SocketShutdown.Both);
+            sender.Close();
+        }
+
+        public void Send(string message)
+        {
+            // Encode the data string into a byte array.
+            byte[] msg = Encoding.ASCII.GetBytes(message + endstr);
+
+            // Send the data through the socket.
+            int bytesSent = sender.Send(msg);
+        }
+
+        public string Recive()
+        {
+            byte[] bytes = new byte[1024];
+            // Receive the response from the remote device.
+            int bytesRec = sender.Receive(bytes);
+            char[] str = Encoding.ASCII.GetString(bytes, 0, bytesRec).ToCharArray();
+            string Out = "";
+
+            for(int i = 0; i < str.Length-endstr.Length; i++)
+            {
+                Out += str[i].ToString();
+            }
+
+            return Out;
         }
     }
 }

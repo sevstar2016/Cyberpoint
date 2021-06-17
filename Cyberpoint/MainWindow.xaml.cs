@@ -39,10 +39,10 @@ namespace Cyberpoint
 
             DataContext = rvm;
 
-            Thread thr = new Thread(new ThreadStart(KillProcess));
+            /*Thread thr = new Thread(new ThreadStart(KillProcess));
             thr.Priority = ThreadPriority.AboveNormal;
             thr.IsBackground = false;
-            thr.Start();
+            thr.Start();*/
 
             Client cl = new Client();
 
